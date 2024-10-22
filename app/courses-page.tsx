@@ -23,7 +23,11 @@ Mode: Online
 Timings: Evening Slots.
 Duration: 1.5hrs session 
 Total live classes: ?
-Mock tests: ?`,
+Mock tests: ?
+
+
+
+`,
             link: 'https://forms.gle/DbgjHE94HhYGgqjh9'
         },
         {
@@ -87,7 +91,13 @@ Mock tests: ?
             price: 'Rs 499/-',
             description: `Details of course:
 Duration: 03 Weeks
-Mode: Online Zoom Meeting`,
+Mode: Online Zoom Meeting
+
+
+
+
+
+`,
             link: 'https://forms.gle/N9aeDZAzXSpx8C4b9'
         },
         {
@@ -100,7 +110,11 @@ Mode: Online Zoom Meeting`,
 📌 200+ SSB SRT Problems.
 📌 Sample responses by experts.
 📌 QR codes inside for Assessments by Experts.
-📌 Book 1-1 interactive sessions at no extra cost using links provided inside the e-book.`,
+📌 Book 1-1 interactive sessions at no extra cost using links provided inside the e-book.
+
+
+
+`,
             link: 'https://forms.gle/Ch7u1BnSbmy5wiug9'
         },
         {
@@ -132,7 +146,9 @@ Mode: Online Zoom Meeting`,
 📌 E-Dossiers and Assessment reports.
 📌 Mock SSB Attempts in virtual set-up.
 📌 30+ TAT pictures for Female Candidates.
-📌 Link embedded video tutorials.`,
+📌 Link embedded video tutorials.
+
+`,
             link: 'https://forms.gle/BgBaDkxWaMmpgjoJA'
         },
         {
