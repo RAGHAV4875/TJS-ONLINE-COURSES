@@ -22,7 +22,7 @@ Mode: Online
 Timings: Evening Slots.
 Duration: 1.5hrs session 
 Total live classes: ?
-Mock tests: ?
+Mock tests: 
 
 
 
