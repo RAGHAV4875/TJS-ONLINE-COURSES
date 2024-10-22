@@ -1,7 +1,8 @@
 import Image from 'next/image'
+import { Instagram, Youtube, MessageCircle, Send } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Instagram, Youtube } from 'lucide-react'
+
 export default function CoursesPage() {
     const courses = [
         {
@@ -22,11 +23,7 @@ Mode: Online
 Timings: Evening Slots.
 Duration: 1.5hrs session 
 Total live classes: ?
-Mock tests: 
-
-
-
-`,
+Mock tests: ?`,
             link: 'https://forms.gle/DbgjHE94HhYGgqjh9'
         },
         {
@@ -47,7 +44,7 @@ Duartion: 7 Days
 Timings: Evening Slots.
 Duration: 1.5hrs session 
 Total live classes: ?
-Mock tests: 
+Mock tests: ?
 
 
 
@@ -90,13 +87,7 @@ Mock tests: ?
             price: 'Rs 499/-',
             description: `Details of course:
 Duration: 03 Weeks
-Mode: Online Zoom Meeting
-
-
-
-
-
-`,
+Mode: Online Zoom Meeting`,
             link: 'https://forms.gle/N9aeDZAzXSpx8C4b9'
         },
         {
@@ -109,11 +100,7 @@ Mode: Online Zoom Meeting
 📌 200+ SSB SRT Problems.
 📌 Sample responses by experts.
 📌 QR codes inside for Assessments by Experts.
-📌 Book 1-1 interactive sessions at no extra cost using links provided inside the e-book.
-
-
-
-`,
+📌 Book 1-1 interactive sessions at no extra cost using links provided inside the e-book.`,
             link: 'https://forms.gle/Ch7u1BnSbmy5wiug9'
         },
         {
@@ -145,9 +132,7 @@ Mode: Online Zoom Meeting
 📌 E-Dossiers and Assessment reports.
 📌 Mock SSB Attempts in virtual set-up.
 📌 30+ TAT pictures for Female Candidates.
-📌 Link embedded video tutorials.
-
-`,
+📌 Link embedded video tutorials.`,
             link: 'https://forms.gle/BgBaDkxWaMmpgjoJA'
         },
         {
@@ -212,43 +197,53 @@ Mode: Online Zoom Meeting
 
     return (
         <div className="min-h-screen bg-black text-white">
-            <nav className="bg-yellow-400 p-4 flex items-center justify-between">
-                <div className="flex items-center">
-                    <Image
-                        src="/TJS logo.jpg"
-                        alt="TJS Logo"
-                        width={50}
-                        height={50}
-                        className="rounded-full"
-                    />
-                    <h1 className="text-black text-2xl font-bold ml-4">The Josh Squad Courses</h1>
-                </div>
-                <div className="flex items-center space-x-4 mr-4">
-                    <a href="https://www.instagram.com/the.josh.squad/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800">
-                        <Instagram size={24} />
-                        <span className="sr-only">Instagram</span>
-                    </a>
-                    <a href="https://www.youtube.com/@TheJoshSquadOfficial" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800">
-                        <Youtube size={24} />
-                        <span className="sr-only">YouTube</span>
-                    </a>
+            <nav className="bg-yellow-400 p-4">
+                <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
+                    <div className="flex items-center mb-4 sm:mb-0">
+                        <Image
+                            src="/TJS logo.jpg"
+                            alt="TJS Logo"
+                            width={50}
+                            height={50}
+                            className="rounded-full"
+                        />
+                        <h1 className="text-black text-2xl font-bold ml-4">The Josh Squad</h1>
+                    </div>
+                    <div className="flex items-center space-x-4">
+                        <a href="https://www.instagram.com/your_instagram_handle" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
+                            <Instagram size={24} />
+                            <span className="sr-only">Instagram</span>
+                        </a>
+                        <a href="https://www.youtube.com/your_youtube_channel" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
+                            <Youtube size={24} />
+                            <span className="sr-only">YouTube</span>
+                        </a>
+                        <a href="https://chat.whatsapp.com/Fo15TWPkVzO6Os7FjdiUKX" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
+                            <MessageCircle size={24} />
+                            <span className="sr-only">WhatsApp Group</span>
+                        </a>
+                        <a href="https://t.me/thejoshsquad" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
+                            <Send size={24} />
+                            <span className="sr-only">Telegram Channel</span>
+                        </a>
+                    </div>
                 </div>
             </nav>
+            <header className="bg-black py-8">
+                <h2 className="text-4xl font-bold text-center text-white">Our Courses</h2>
+            </header>
             <main className="container mx-auto py-8 px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {courses.map((course, index) => (
-                        <Card key={index} className="bg-gray-800 border-gray-700">
+                        <Card key={index} className="bg-gray-800 border-gray-700 transition-transform duration-300 ease-in-out transform hover:scale-105">
                             <CardHeader>
                                 <CardTitle className="text-xl font-bold text-white">{course.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <Image
+                                <img
                                     src={course.image}
                                     alt={course.title}
-                                    width={300}
-                                    height={200}
-                                    layout="responsive"
-                                    className="rounded-md"
+                                    className="w-full h-48 object-cover rounded-md"
                                 />
                                 <p className="mt-4 font-bold text-white text-lg">{course.price}</p>
                                 <CardDescription className="mt-2 text-white font-bold whitespace-pre-line">
