@@ -256,11 +256,15 @@ Mode: Online Zoom Meeting
                                 <CardTitle className="text-xl font-bold text-white">{course.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <img
-                                    src={course.image}
-                                    alt={course.title}
-                                    className="w-full h-48 object-cover rounded-md"
-                                />
+                               <div className="relative w-full" style={{ paddingBottom: '100%' }}>
+                                    <Image
+                                        src={course.image}
+                                        alt={course.title}
+                                        layout="fill"
+                                        objectFit="contain"
+                                        className="rounded-md"
+                                    />
+                                </div>
                                 <p className="mt-4 font-bold text-white text-lg">{course.price}</p>
                                 <CardDescription className="mt-2 text-white font-bold whitespace-pre-line">
                                     {course.description}
