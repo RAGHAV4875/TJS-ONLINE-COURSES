@@ -226,11 +226,11 @@ Mode: Online Zoom Meeting
                         <h1 className="text-black text-2xl font-bold ml-4">The Josh Squad</h1>
                     </div>
                     <div className="flex items-center space-x-4">
-                        <a href="https://www.instagram.com/your_instagram_handle" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
+                        <a href="https://www.instagram.com/the.josh.squad/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
                             <Instagram size={24} />
                             <span className="sr-only">Instagram</span>
                         </a>
-                        <a href="https://www.youtube.com/your_youtube_channel" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
+                        <a href="https://www.youtube.com/@TheJoshSquadOfficial" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 transition-transform duration-300 ease-in-out transform hover:scale-110">
                             <Youtube size={24} />
                             <span className="sr-only">YouTube</span>
                         </a>
