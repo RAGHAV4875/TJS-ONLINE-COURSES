@@ -22,8 +22,8 @@ export default function CoursesPage() {
 Mode: Online
 Timings: Evening Slots.
 Duration: 1.5hrs session 
-Total live classes: ?
-Mock tests: ?
+Total live classes: 8 + 3 Doubt Sessions + 1Review Session
+Mock tests: 3
 
 
 
@@ -44,11 +44,11 @@ Mock tests: ?
 
 
 Mode: Online
-Duartion: 7 Days
+Duration: 7 Days
 Timings: Evening Slots.
 Duration: 1.5hrs session 
-Total live classes: ?
-Mock tests: ?
+Total live classes: 5 + 2 Doubt Sessions
+Mock tests: 3
 
 
 
@@ -73,8 +73,8 @@ Mock tests: ?
 Mode: Online
 Timings: Evening Slots.
 Duration: 1.5hrs session 
-Total live classes: ?
-Mock tests: ?
+Total live classes: 6 + 2 Doubt Sessions + 1 Review Session
+Mock Inteviews: 1
 
 
 
