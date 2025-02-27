@@ -7,7 +7,7 @@ export default function CoursesPage() {
     const courses = [
         {
             title: '12 DAY - PSYCH ONLINE COURSE',
-            image: '/PSYCH2POSTER.png',
+            image: '/new psych.jpg',
             price: 'Rs 999/-',
             description: `What will you learn?
 
