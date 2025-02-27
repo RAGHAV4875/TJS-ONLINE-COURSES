@@ -8,7 +8,7 @@ export default function CoursesPage() {
         {
             title: '12 DAY - PSYCH ONLINE COURSE',
             image: '/PSYCH2POSTER.png',
-            price: 'Rs 799/-',
+            price: 'Rs 999/-',
             description: `What will you learn?
 
 📌 How to Write Stories That Truly Reflect Your Personality  
