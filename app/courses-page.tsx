@@ -60,7 +60,7 @@ Mock tests: 3
         {
             title: 'Personal Interview & Personality Development Course',
             image: '/PI2POSTER.png',
-            price: 'Rs 749/-',
+            price: 'Rs 999/-',
             description: `What will you learn?
 
 📌 Comprehensive Personality Development.
